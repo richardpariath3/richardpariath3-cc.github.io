@@ -1,0 +1,62 @@
+
+#container
+{
+	width:1150px;
+	margin:12px 50px 12px 160px;
+
+}
+
+#slider
+{
+	width: 100%;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	float:left;
+	border: #666 solid 2px;
+	border-radius: 5px;
+}
+#slider img
+{
+	width: 100%;
+	height: 350px;
+	
+}
+
+
+.slide
+{
+	position: absolute;
+}
+
+.slide-copy
+{
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:20px;
+	background: #7f7f7f;
+	background: rgba(0,0,0,0.5);
+
+}
+
+#prev, #next
+{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+}
+
+
+#prev
+{
+	margin-right:-45px;
+}
+
+#next
+{
+	margin-left:-45px;
+	
+}
